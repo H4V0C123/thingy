@@ -1,0 +1,57 @@
+body {
+    background-color: #f0faff; /* Light sky blue background for the entire page */
+    font-family: Arial, sans-serif; /* Font choice */
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #fff; /* White background for the container */
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2); /* Subtle shadow */
+}
+
+h1 {
+    color: #007acc; /* Sky blue heading color */
+}
+
+.question {
+    font-size: 18px;
+    margin-bottom: 20px;
+}
+
+.answer-button {
+    background-color: #007acc; /* Sky blue button background */
+    color: #fff; /* White text color */
+    font-size: 16px;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 30px; /* Round button corners */
+    margin: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.answer-button:hover {
+    background-color: #00508c; /* Darker blue on hover */
+}
+
+.submit-button {
+    background-color: #007acc; /* Sky blue button background for submit button */
+    color: #fff; /* White text color */
+    font-size: 18px;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 30px; /* Round button corners */
+    margin-top: 20px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.submit-button:hover {
+    background-color: #00508c; /* Darker blue on hover for submit button */
+}
